@@ -14,11 +14,11 @@
 		110241CD2B036C7B00A91EF5 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110241CC2B036C7B00A91EF5 /* CustomButtonView.swift */; };
 		11180E0A2B04B62F002167C3 /* RelatedAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11180E092B04B62F002167C3 /* RelatedAnimationViewController.swift */; };
 		11180E0D2B04BBF8002167C3 /* MixerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11180E0C2B04BBF8002167C3 /* MixerTableViewController.swift */; };
-		11180E102B04C2A0002167C3 /* CompactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11180E0F2B04C2A0002167C3 /* CompactViewController.swift */; };
 		11180E132B04CAD8002167C3 /* InertialSquareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11180E122B04CAD8002167C3 /* InertialSquareViewController.swift */; };
 		11180E162B060C39002167C3 /* StretchablePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11180E152B060C39002167C3 /* StretchablePictureViewController.swift */; };
 		11180E192B060F63002167C3 /* NativeAvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11180E182B060F63002167C3 /* NativeAvatarViewController.swift */; };
 		11180E1C2B061691002167C3 /* CarringCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11180E1B2B061691002167C3 /* CarringCollectionViewController.swift */; };
+		11180E1E2B0632B0002167C3 /* CompactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11180E1D2B0632B0002167C3 /* CompactViewController.swift */; };
 		116C15DA2AF3BD7200CB936A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C15D92AF3BD7200CB936A /* AppDelegate.swift */; };
 		116C15DC2AF3BD7200CB936A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C15DB2AF3BD7200CB936A /* SceneDelegate.swift */; };
 		116C15E32AF3BD7300CB936A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116C15E22AF3BD7300CB936A /* Assets.xcassets */; };
@@ -33,11 +33,11 @@
 		110241CC2B036C7B00A91EF5 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		11180E092B04B62F002167C3 /* RelatedAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedAnimationViewController.swift; sourceTree = "<group>"; };
 		11180E0C2B04BBF8002167C3 /* MixerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixerTableViewController.swift; sourceTree = "<group>"; };
-		11180E0F2B04C2A0002167C3 /* CompactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactViewController.swift; sourceTree = "<group>"; };
 		11180E122B04CAD8002167C3 /* InertialSquareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InertialSquareViewController.swift; sourceTree = "<group>"; };
 		11180E152B060C39002167C3 /* StretchablePictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchablePictureViewController.swift; sourceTree = "<group>"; };
 		11180E182B060F63002167C3 /* NativeAvatarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAvatarViewController.swift; sourceTree = "<group>"; };
 		11180E1B2B061691002167C3 /* CarringCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarringCollectionViewController.swift; sourceTree = "<group>"; };
+		11180E1D2B0632B0002167C3 /* CompactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactViewController.swift; sourceTree = "<group>"; };
 		116C15D62AF3BD7200CB936A /* Sparrow-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sparrow-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		116C15D92AF3BD7200CB936A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		116C15DB2AF3BD7200CB936A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,14 +91,6 @@
 			path = FourthTask;
 			sourceTree = "<group>";
 		};
-		11180E0E2B04C27F002167C3 /* FifthTask */ = {
-			isa = PBXGroup;
-			children = (
-				11180E0F2B04C2A0002167C3 /* CompactViewController.swift */,
-			);
-			name = FifthTask;
-			sourceTree = "<group>";
-		};
 		11180E112B04CAB0002167C3 /* SixthTask */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +121,14 @@
 				11180E1B2B061691002167C3 /* CarringCollectionViewController.swift */,
 			);
 			path = NinthTask;
+			sourceTree = "<group>";
+		};
+		11180E1F2B06331A002167C3 /* FifthTask */ = {
+			isa = PBXGroup;
+			children = (
+				11180E1D2B0632B0002167C3 /* CompactViewController.swift */,
+			);
+			path = FifthTask;
 			sourceTree = "<group>";
 		};
 		116C15CD2AF3BD7200CB936A = {
@@ -163,11 +163,11 @@
 		116C15ED2AF3BFE400CB936A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				11180E1F2B06331A002167C3 /* FifthTask */,
 				11180E1A2B061676002167C3 /* NinthTask */,
 				11180E172B060F4B002167C3 /* EighthTask */,
 				11180E142B060C02002167C3 /* SventhTask */,
 				11180E112B04CAB0002167C3 /* SixthTask */,
-				11180E0E2B04C27F002167C3 /* FifthTask */,
 				11180E0B2B04BBD4002167C3 /* FourthTask */,
 				11180E082B04B609002167C3 /* ThirdTask */,
 				110241C92B036C2000A91EF5 /* SecondTask */,
@@ -250,6 +250,7 @@
 				110241CD2B036C7B00A91EF5 /* CustomButtonView.swift in Sources */,
 				11180E162B060C39002167C3 /* StretchablePictureViewController.swift in Sources */,
 				11180E0D2B04BBF8002167C3 /* MixerTableViewController.swift in Sources */,
+				11180E1E2B0632B0002167C3 /* CompactViewController.swift in Sources */,
 				116C15DA2AF3BD7200CB936A /* AppDelegate.swift in Sources */,
 				116C15DC2AF3BD7200CB936A /* SceneDelegate.swift in Sources */,
 				110241C82B0369D100A91EF5 /* GradientView.swift in Sources */,
@@ -257,7 +258,6 @@
 				11180E1C2B061691002167C3 /* CarringCollectionViewController.swift in Sources */,
 				110241C52B03674600A91EF5 /* MainViewController.swift in Sources */,
 				110241CB2B036C3900A91EF5 /* ThreeButtonViewController.swift in Sources */,
-				11180E102B04C2A0002167C3 /* CompactViewController.swift in Sources */,
 				11180E0A2B04B62F002167C3 /* RelatedAnimationViewController.swift in Sources */,
 				11180E192B060F63002167C3 /* NativeAvatarViewController.swift in Sources */,
 				11180E132B04CAD8002167C3 /* InertialSquareViewController.swift in Sources */,
